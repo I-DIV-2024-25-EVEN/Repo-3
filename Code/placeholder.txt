@@ -1,1 +1,30 @@
+#code for the project:belt drive sander machine.
+// Pin Definitions
+const int irPin = 2;         // IR sensor output pin
+const int relayPin = 8;      // Relay module input pin
+
+void setup() {
+  pinMode(irPin, INPUT);
+  pinMode(relayPin, OUTPUT);
+  
+  digitalWrite(relayPin, LOW); // Keep motor off initially
+  
+  Serial.begin(9600);
+}
+
+void loop() {
+  int irState = digitalRead(irPin);
+
+  if (irState == LOW) {
+    // Object detected
+    digitalWrite(relayPin, HIGH); // Turn ON motor
+    Serial.println("Object detected - Motor ON");
+  } else {
+    // No object
+    digitalWrite(relayPin, LOW);  // Turn OFF motor
+    Serial.println("No object - Motor OFF");
+  }
+
+  delay(100); // Short delay to stabilize readings
+}
 
