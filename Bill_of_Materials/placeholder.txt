@@ -1,1 +1,30 @@
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th>Sl. No.</th>
+      <th>Part Name / drawing</th>
+      <th>Person Responsible</th>
+      <th>Name of the material</th>
+      <th>Specification</th>
+      <th>Qty</th>
+      <th>Fabrication process if needed</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Base</td><td>Vyshnavi</td><td>foam sheet</td><td>40cm*50cm</td><td>1</td><td></td></tr>
+    <tr><td>2</td><td>Base</td><td>Vyshnavi</td><td>Acrylic sheet</td><td>27cm*33cm</td><td>2</td><td></td></tr>
+    <tr><td>3</td><td>Body</td><td>Vyshnavi</td><td>L clamp</td><td>1 inch</td><td>6</td><td></td></tr>
+    <tr><td>4</td><td>Body</td><td>Sunil</td><td>Nylon rod</td><td>15 cm</td><td>3</td><td></td></tr>
+    <tr><td>5</td><td>Body</td><td>Pramodini</td><td>Screws, washer, nuts</td><td>4 mm</td><td>24</td><td></td></tr>
+    <tr><td>6</td><td>Body</td><td>Toko Pada</td><td>Screws, washer, nuts</td><td>4 mm</td><td>25</td><td></td></tr>
+    <tr><td>7</td><td>Body</td><td>toko pada</td><td>Nylon rod</td><td>25 mm</td><td>1</td><td></td></tr>
+    <tr><td>8</td><td>Support</td><td>Vyshnavi</td><td>Nylon rod</td><td>16 cm</td><td>1</td><td></td></tr>
+    <tr><td>9</td><td>Body</td><td>Triveni</td><td>Aluminium rod</td><td>20 cm</td><td>1</td><td></td></tr>
+    <tr><td>10</td><td>Support</td><td>Vyshnavi</td><td>Fewikwik</td><td>-</td><td>1</td><td></td></tr>
+    <tr><td>11</td><td>Support</td><td></td><td>Nylon rod</td><td>25*16</td><td>1</td><td></td></tr>
+    <tr><td>12</td><td>Support</td><td></td><td>Fewikwik</td><td>-</td><td>2</td><td></td></tr>
+    <tr><td>13</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>14</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  </tbody>
+</table>
 
